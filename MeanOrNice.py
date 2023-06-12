@@ -43,13 +43,12 @@ def nice_mean0(nice,mean,name,scenario = 0):
         if pick == 'n':
             print('\nThe stranger walks away smiling...')
             nice += 1
-            scenario += 1
             stop = False
         if pick == 'm':
             print('\nThe stranger glares at you \nmenacingly and storms off...')
             mean += 1
-            scenario += 1
             stop = False
+    scenario += 1
     score(nice,mean,name,scenario) # Passes the 4 variables to the score()
 
 def nice_mean1(nice,mean,name, scenario):
@@ -61,13 +60,12 @@ def nice_mean1(nice,mean,name, scenario):
         if pick == 'n':
             print('\nYou give the grateful stranger a ride...')
             nice += 1
-            scenario += 1
             stop = False
         if pick == 'm':
             print('\nYou leave the stranger stranded alone...')
             mean += 1
-            scenario += 1
             stop = False
+    scenario += 1
     score(nice,mean,name,scenario) # Passes the 4 variables to the score()
 
 def nice_mean2(nice,mean,name, scenario):
@@ -79,13 +77,12 @@ def nice_mean2(nice,mean,name, scenario):
         if pick == 'n':
             print('\nThe stranger thanks you for helping him with the door...')
             nice += 1
-            scenario += 1
             stop = False
         if pick == 'm':
             print('\nThe stranger notices you make eye contact but continue walking. \nHis books drop into the puddle below. He remembers your face...')
             mean += 1
-            scenario += 1
             stop = False
+    scenario += 1
     score(nice,mean,name,scenario) # Passes the 4 variables to the score()
 
 def nice_mean3(nice,mean,name, scenario):
@@ -97,13 +94,12 @@ def nice_mean3(nice,mean,name, scenario):
         if pick == 'n':
             print('\nYou give the elderly stranger your seat. She gives \nyou an old butterscotch hard candy from her purse...')
             nice += 1
-            scenario += 1
             stop = False
         if pick == 'm':
             print('\nYou hold your ground. The bus hits a bump and the \nelderly stranger falls, resulting in a broken hip...')
             mean += 1
-            scenario += 1
             stop = False
+    scenario += 1
     score(nice,mean,name,scenario) # Passes the 4 variables to the score()
 
 def nice_mean4(nice,mean,name, scenario):
@@ -115,13 +111,12 @@ def nice_mean4(nice,mean,name, scenario):
         if pick == 'n':
             print('\nYou let the creator slide, he\'s worked hard enough...')
             nice += 1
-            scenario += 1
             stop = False
         if pick == 'm':
             print('\nYou punish the creator and leave a negative review online...')
             mean += 1
-            scenario += 1
             stop = False
+    scenario += 1
     score(nice,mean,name,scenario) # Passes the 4 variables to the score()
 
 def show_score(nice,mean,name):
