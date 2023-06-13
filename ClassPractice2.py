@@ -18,7 +18,7 @@ class Car(Vehicle):#Creating a child class
     trunkSpace = '4 Cubic Feet'
     traction = 1
 
-    def accelerate(self):
+    def accelerate(self): #Polymorphing the method
         speed = 50
         traction = .75
         return speed,traction
