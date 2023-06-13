@@ -14,4 +14,3 @@ class Car(Vehicle):#Creating a child class
 class Helicopter(Vehicle):#Creating a child class
     numberOfRotors = 4
     maxLiftCapacity = '4000 lbs'
-    
