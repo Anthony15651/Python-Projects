@@ -1,0 +1,1 @@
+Blank text document to use for Python reference.
