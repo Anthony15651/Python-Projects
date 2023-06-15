@@ -23,7 +23,7 @@ class ParentWindow(Frame):
         # This CenterWindow method will center
         # the app on the user's screen
         PhoneBookFunc.CenterWindow(self, 500, 300)
-        self.master.title('The Tkinter Phonebook Demo')
+        self.master.title('My Tkinter Phone Book')
         self.master.configure(bg='#F0F0F0')
 
         # This protocol method is a tkinter built-in method to catch
