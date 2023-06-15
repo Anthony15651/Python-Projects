@@ -1,7 +1,6 @@
 
 
 
-# Here is an example of a protected variable, denoted by a single "_"
 class Protected:
     def __init__(self):
         self._proVar = 100 # This variable is protected, as denoted by "_"
