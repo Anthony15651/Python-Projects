@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}User Profiles{% endblock %}
+
+{% block header %}Profiles:{% endblock %}
+
+{% block content %}
+
+{% for profile in profiles %}
+    <ul>
+        <li>{{ profile.FirstName }} {{ profile.LastName }}</li>
+    </ul>
+{% endfor %}
+
+{% endblock %}
