@@ -6,10 +6,23 @@
 
 {% block content %}
 
-{% for profile in profiles %}
-    <ul>
-        <li>{{ profile.FirstName }} {{ profile.LastName }}</li>
-    </ul>
-{% endfor %}
+<div class="admin_panel">
+    <form name="profileForm" method="POST" action="">
+        <div class="formObject">
+            {% csrf_token %}
+            <label for="menu_id">Select a profile from the list to edit:</label>
+            <select id ="menu_id" name="menu" onChange="top.location.href=this.options[this.selectedIndex].value;">
+            {% for profile in profiles %}
+                <option value="../{{ profile.pk }}/details/">{{ profile.FirstName }} {{ profile.LastName }}</option>
+            {% endfor %}
+            </select>
+            <div class="frmBtn_container">
+                <a href="{% url 'admin' %}"><button type="button" class="btn">Create New Profile</button></a>
+                <a href="{% url 'home' %}"><button type="button" class="btn">Logout of Profile</button></a>
+            </div>
+        </div>
+
+    </form>
+</div>
 
 {% endblock %}

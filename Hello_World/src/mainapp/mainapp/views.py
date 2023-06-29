@@ -8,3 +8,7 @@ def home(request):
         'names': names,
     }
     return render(request, "home.html", context)
+
+def admin(request):
+    return render(request, "home.html", context)
+

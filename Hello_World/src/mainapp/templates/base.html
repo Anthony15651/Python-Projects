@@ -7,15 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="{% static 'stylesheet.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
     </head>
     <body>
         <div class="page_container">
-            <ul class="topnav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            {% include "navbar.html" %}
             <header class="header-title">
                 <h1>{% block header %}{% endblock %}</h1>
             </header>
