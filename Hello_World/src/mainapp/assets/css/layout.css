@@ -280,7 +280,7 @@ label {
     color: #CABE96;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
-.bg_img {
+.bg_img1 {
     background-color: lightblue;
     background-image: url('/static/images/test.png');
     background-size: cover;
