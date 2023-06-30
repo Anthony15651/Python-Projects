@@ -6,7 +6,7 @@ This repository contains my JavaScript projects completed through The Tech Acade
 <ul>
   <li><a href="https://github.com/Anthony15651/Python-Projects/tree/main/PhoneBook%20Project" target="_blank">Phonebook</a></li>
   <li><a href="https://github.com/Anthony15651/Python-Projects/blob/main/file_transfer.py" target="_blank">Check Files GUI</a></li>
-  <li><a href="https://github.com/Anthony15651/Python-Projects/tree/main/Django_Checkbook_Project" target="_blank"></a></li>
+  <li><a href="https://github.com/Anthony15651/Python-Projects/tree/main/Django_Checkbook_Project" target="_blank">Django Checkbook</a></li>
 </ul>
 
 <h3>Phonebook Project</h3>
