@@ -1,6 +1,6 @@
 # Python Projects
 
-This repository contains my JavaScript projects completed through The Tech Academy.
+This repository contains my JavaScript projects completed throughout my learning journey.
 
 <h3>Projects:</h3>
 <ul>
